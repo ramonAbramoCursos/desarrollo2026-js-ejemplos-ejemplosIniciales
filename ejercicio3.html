@@ -17,8 +17,9 @@
 
     // declarar
     let nombreHeroe = ""; // Inicializamos con texto vacío
-    var nivelFuerza = 0;  // Inicializamos con un número (empezamos flojitos)
+    let nivelFuerza = 0;  // Inicializamos con un número (empezamos flojitos)
     let ciudadProtegida = ""; // La zona que patrulla nuestro amigo
+
 
 
     // introducir
@@ -27,10 +28,10 @@
     ciudadProtegida = prompt("introduce la ciudad protegida");
 
     // mostrar
-    alert(nombreHeroe);
-    alert(nivelFuerza);
-    alert(ciudadProtegida);
-
+    // concatenar la salida con un texto (operador +)
+    alert('El nombre del heroe es ' + nombreHeroe);
+    alert('El nivel del fuerza del heroe es ' + nivelFuerza);
+    alert('La ciudad que protege el heroe ' + ciudadProtegida);
 
 </script>
 
