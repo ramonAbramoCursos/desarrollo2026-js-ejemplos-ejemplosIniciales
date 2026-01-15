@@ -7,6 +7,9 @@ const POTENCIA = 2;
 let numero = 0;
 let resultado = 0;
 
+// constantes que apuntan al DOM
+const caja = document.querySelector("div");
+
 // introducir
 numero = Number(prompt("Introduce un numero"));
 
@@ -15,4 +18,5 @@ numero = Number(prompt("Introduce un numero"));
 resultado = numero ** POTENCIA;
 
 // mostrar
-document.querySelector("div").innerHTML = resultado;
+caja.innerHTML = resultado;
+
