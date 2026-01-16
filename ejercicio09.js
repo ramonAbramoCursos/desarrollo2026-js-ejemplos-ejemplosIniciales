@@ -13,10 +13,16 @@ let area = 0;
 let radio = 0;
 
 // constantes que apunten al DOM
+const spanRadio = document.querySelector("#idRadio");
+const spanArea = document.querySelector("#idArea");
 
 // introducir
+radio = Number(prompt("Introduce el radio de la circunferencia"));
 
 
 // procesamiento
+area = Math.PI * radio ** 2;
 
 // salidas
+spanArea.innerHTML = area;
+spanRadio.innerHTML = radio;
