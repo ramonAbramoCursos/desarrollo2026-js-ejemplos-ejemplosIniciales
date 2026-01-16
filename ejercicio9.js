@@ -9,10 +9,13 @@
  */
 
 // declarar e inicializar
+let area = 0;
+let radio = 0;
 
 // constantes que apunten al DOM
 
 // introducir
+
 
 // procesamiento
 
