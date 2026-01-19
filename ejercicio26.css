@@ -1,0 +1,8 @@
+#respuesta {
+    padding: 20px;
+    border: 2px dashed #e67e22;
+    background: #fff5e6;
+    color: #d35400;
+    display: inline-block;
+    font-weight: bold;
+}
