@@ -1,0 +1,16 @@
+.panel {
+    border: 3px double #333;
+    padding: 30px;
+    width: fit-content;
+    margin: auto;
+    background: #fafafa;
+    text-align: center;
+}
+
+#codigoFinal {
+    font-family: 'Courier New', monospace;
+    color: #e74c3c;
+    letter-spacing: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
