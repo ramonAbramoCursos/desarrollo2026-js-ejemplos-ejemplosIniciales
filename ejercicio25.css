@@ -1,0 +1,15 @@
+.container {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#resultados {
+    font-size: 1.2rem;
+    color: #00ffcc;
+    margin-top: 10px;
+}
