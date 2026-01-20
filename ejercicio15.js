@@ -14,3 +14,22 @@
 // etiqueta (div,span,a)
 // class (.clase)
 // id (#id)
+
+// declarar
+let nombre = '';
+
+// constantes que apunten al DOM
+const nodoHeader = document.querySelector("header");
+const nodoMain = document.querySelector("main");
+const nodoFooter = document.querySelector("footer");
+
+
+// introducir
+nombre = prompt("Introduce tu nombre");
+
+// procesar
+
+// mostrar
+nodoHeader.innerHTML = nombre;
+nodoMain.innerHTML = "Ejemplo de clase";
+nodoFooter.innerHTML = "Alpe";

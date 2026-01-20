@@ -9,11 +9,19 @@ let uno = '';
 let dos = '';
 
 
-
 // constantes al DOM
+const nodoUno = document.querySelector("#idUno");
+const nodoDos = document.querySelector("#idDos");
 
 // introducir
+uno = nodoUno.innerHTML;
+dos = nodoDos.innerHTML;
 
 // procesamiento
 
+
 // mostrar
+nodoUno.innerHTML = dos;
+nodoDos.innerHTML = uno;
+
+
